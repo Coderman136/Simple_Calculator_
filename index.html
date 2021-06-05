@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Basic Calculator</title>
+  <link href="./fontawesome-free-5.12.1-web/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+ <div class="container">
+  <table>
+   <th>Calculator</th>
+   <tr>
+    <td colspan="4"><input type="text"  class="result" ></td>
+   </tr>
+
+   <tr>
+    <td><button onclick="remov()">AC</button></td>
+    <td><button onclick="backspace()"><i class="fas fa-backspace"></i></button></td>
+    <td><button onclick="percentage()"><i class="fas fa-percentage"></i></i></button></td>
+    <td><button class="symbols" onclick="div()"><i class="fas fa-divide"></i></button></td>
+   </tr>
+
+   <tr>
+    <td><button onclick="calc('7')" value="7">7</button></td>
+    <td><button onclick="calc('8')" value="8">8</button></td>
+    <td><button onclick="calc('9')" value="9">9</button></td>
+    <td><button class="symbols" onclick="mul()"><i class="fas fa-times"></i></button></td>
+   </tr>
+
+   <tr>
+    <td><button onclick="calc('4')" value="4">4</button></td>
+    <td><button onclick="calc('5')" value="5">5</button></td>
+    <td><button onclick="calc('6')" value="6">6</button></td>
+    <td><button class="symbols" onclick="sub()"><i class="fas fa-minus"></i></i></button></td>
+   </tr>
+
+   <tr>
+    <td><button onclick="calc('1')" value="1">1</button></td>
+    <td><button onclick="calc('2')" value="2">2</button></td>
+    <td><button onclick="calc('3')" value="3">3</button></td>
+    <td><button class="symbols" onclick="add()"><i class="fas fa-plus"></i></button></td>
+   </tr>
+
+   <tr>
+    <td><button onclick="calc('.')">.</button></td>
+    <td><button onclick="calc('0')" value="0">0</button></td>
+    <td colspan="2"><button class="equal" onclick="equals()"><i class="fas fa-equals"></i></button></td>
+   </tr>
+
+  </table>
+
+ </div>
+ <script src="script.js"></script>
+</body>
+</html>
