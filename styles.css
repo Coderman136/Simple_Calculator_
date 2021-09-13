@@ -1,21 +1,27 @@
 *{
  box-sizing: border-box;
 }
+
 body {
  margin:0;
- padding:20px;
- background:radial-gradient(#1e8fa5,#085)no-repeat;
-  display:flex;
+ /* padding:20px; */
+ background-color: #333333;
+ display:flex;
  justify-content: center;
  align-items: center;
- min-height:100vh;
+ height:100vh;
+}
+
+th{
+ color: #949495;
 }
 
 table {
  width:300px;
  border:5px solid black;
- border-radius: 20px;
- padding:20px;
+ border-radius: 0%;
+ padding:5px;
+ background-color: rgba(0, 0, 0, 0.5);
 }
 
 input{
@@ -25,7 +31,7 @@ input{
  padding:10px;
  width:100%;
  font-size:32px;
- background: none;
+ background: #fff;
 }
 
 button {
@@ -37,6 +43,7 @@ button {
  padding:17px;
  font-weight: bolder;
  font-size:20px;
+ color: #949495;
 }
 
 button:hover {
@@ -46,12 +53,12 @@ button:hover {
 }
 
 .symbols {
- color:rgb(252, 181, 50);
+ color: #949495;
 }
 
 .equal {
  width: 140px;
- background-color:rgb(252, 181, 50);
+ background-color: #949495;
  color:#fff;
  border-radius: 0;
 }
